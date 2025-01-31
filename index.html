@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Image Map</title>
-</head>
-<body>
-    <!-- Image map will be inserted here -->
-    <div id="image-map-pro"></div>
-
-    <!-- Include the main Image Map Pro script file -->
+    <style>
+        /* Map container styles */
+        #map-container {
+            width: 100%;
+            height: 100vh; /* Adjust as needed */
+            overflow: hidden;
+            position: relative;
+        }
+        
+        /* Map image styles */
+        #map-image {
+            width: auto;
+            height: auto;
+            max-width: none;
+            max-height: none;
+            cursor: grab;
+            user-select: none;
+            -webkit-user-drag: none;
+            touch-action: none;
+        }
     <script src="image-map-pro.min.js"></script>
 
     <!-- Additional Image Map Pro initialization script goes here -->
